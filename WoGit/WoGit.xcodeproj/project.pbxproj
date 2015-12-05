@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB7CA8F01C12BB9500EC29A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7CA8EF1C12BB9500EC29A7 /* main.m */; };
+		DB7CA8F31C12BB9500EC29A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7CA8F21C12BB9500EC29A7 /* AppDelegate.m */; };
+		DB7CA8F61C12BB9500EC29A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7CA8F51C12BB9500EC29A7 /* ViewController.m */; };
+		DB7CA8F91C12BB9500EC29A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7CA8F71C12BB9500EC29A7 /* Main.storyboard */; };
+		DB7CA8FB1C12BB9500EC29A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7CA8FA1C12BB9500EC29A7 /* Assets.xcassets */; };
+		DB7CA8FE1C12BB9500EC29A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7CA8FC1C12BB9500EC29A7 /* LaunchScreen.storyboard */; };
+		DB7CA9091C12BB9600EC29A7 /* WoGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7CA9081C12BB9600EC29A7 /* WoGitTests.m */; };
+		DB7CA9141C12BB9600EC29A7 /* WoGitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7CA9131C12BB9600EC29A7 /* WoGitUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB7CA9051C12BB9600EC29A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB7CA8E31C12BB9500EC29A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB7CA8EA1C12BB9500EC29A7;
+			remoteInfo = WoGit;
+		};
+		DB7CA9101C12BB9600EC29A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB7CA8E31C12BB9500EC29A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB7CA8EA1C12BB9500EC29A7;
+			remoteInfo = WoGit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB7CA8EB1C12BB9500EC29A7 /* WoGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7CA8EF1C12BB9500EC29A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB7CA8F11C12BB9500EC29A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB7CA8F21C12BB9500EC29A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB7CA8F41C12BB9500EC29A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB7CA8F51C12BB9500EC29A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB7CA8F81C12BB9500EC29A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB7CA8FA1C12BB9500EC29A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB7CA8FD1C12BB9500EC29A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB7CA8FF1C12BB9500EC29A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB7CA9041C12BB9600EC29A7 /* WoGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7CA9081C12BB9600EC29A7 /* WoGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoGitTests.m; sourceTree = "<group>"; };
+		DB7CA90A1C12BB9600EC29A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB7CA90F1C12BB9600EC29A7 /* WoGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7CA9131C12BB9600EC29A7 /* WoGitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoGitUITests.m; sourceTree = "<group>"; };
+		DB7CA9151C12BB9600EC29A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB7CA8E81C12BB9500EC29A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7CA9011C12BB9600EC29A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7CA90C1C12BB9600EC29A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB7CA8E21C12BB9500EC29A7 = {
+			isa = PBXGroup;
+			children = (
+				DB7CA8ED1C12BB9500EC29A7 /* WoGit */,
+				DB7CA9071C12BB9600EC29A7 /* WoGitTests */,
+				DB7CA9121C12BB9600EC29A7 /* WoGitUITests */,
+				DB7CA8EC1C12BB9500EC29A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB7CA8EC1C12BB9500EC29A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB7CA8EB1C12BB9500EC29A7 /* WoGit.app */,
+				DB7CA9041C12BB9600EC29A7 /* WoGitTests.xctest */,
+				DB7CA90F1C12BB9600EC29A7 /* WoGitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB7CA8ED1C12BB9500EC29A7 /* WoGit */ = {
+			isa = PBXGroup;
+			children = (
+				DB7CA8F11C12BB9500EC29A7 /* AppDelegate.h */,
+				DB7CA8F21C12BB9500EC29A7 /* AppDelegate.m */,
+				DB7CA8F41C12BB9500EC29A7 /* ViewController.h */,
+				DB7CA8F51C12BB9500EC29A7 /* ViewController.m */,
+				DB7CA8F71C12BB9500EC29A7 /* Main.storyboard */,
+				DB7CA8FA1C12BB9500EC29A7 /* Assets.xcassets */,
+				DB7CA8FC1C12BB9500EC29A7 /* LaunchScreen.storyboard */,
+				DB7CA8FF1C12BB9500EC29A7 /* Info.plist */,
+				DB7CA8EE1C12BB9500EC29A7 /* Supporting Files */,
+			);
+			path = WoGit;
+			sourceTree = "<group>";
+		};
+		DB7CA8EE1C12BB9500EC29A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB7CA8EF1C12BB9500EC29A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB7CA9071C12BB9600EC29A7 /* WoGitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB7CA9081C12BB9600EC29A7 /* WoGitTests.m */,
+				DB7CA90A1C12BB9600EC29A7 /* Info.plist */,
+			);
+			path = WoGitTests;
+			sourceTree = "<group>";
+		};
+		DB7CA9121C12BB9600EC29A7 /* WoGitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB7CA9131C12BB9600EC29A7 /* WoGitUITests.m */,
+				DB7CA9151C12BB9600EC29A7 /* Info.plist */,
+			);
+			path = WoGitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB7CA8EA1C12BB9500EC29A7 /* WoGit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7CA9181C12BB9600EC29A7 /* Build configuration list for PBXNativeTarget "WoGit" */;
+			buildPhases = (
+				DB7CA8E71C12BB9500EC29A7 /* Sources */,
+				DB7CA8E81C12BB9500EC29A7 /* Frameworks */,
+				DB7CA8E91C12BB9500EC29A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WoGit;
+			productName = WoGit;
+			productReference = DB7CA8EB1C12BB9500EC29A7 /* WoGit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB7CA9031C12BB9600EC29A7 /* WoGitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7CA91B1C12BB9600EC29A7 /* Build configuration list for PBXNativeTarget "WoGitTests" */;
+			buildPhases = (
+				DB7CA9001C12BB9600EC29A7 /* Sources */,
+				DB7CA9011C12BB9600EC29A7 /* Frameworks */,
+				DB7CA9021C12BB9600EC29A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB7CA9061C12BB9600EC29A7 /* PBXTargetDependency */,
+			);
+			name = WoGitTests;
+			productName = WoGitTests;
+			productReference = DB7CA9041C12BB9600EC29A7 /* WoGitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB7CA90E1C12BB9600EC29A7 /* WoGitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7CA91E1C12BB9600EC29A7 /* Build configuration list for PBXNativeTarget "WoGitUITests" */;
+			buildPhases = (
+				DB7CA90B1C12BB9600EC29A7 /* Sources */,
+				DB7CA90C1C12BB9600EC29A7 /* Frameworks */,
+				DB7CA90D1C12BB9600EC29A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB7CA9111C12BB9600EC29A7 /* PBXTargetDependency */,
+			);
+			name = WoGitUITests;
+			productName = WoGitUITests;
+			productReference = DB7CA90F1C12BB9600EC29A7 /* WoGitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB7CA8E31C12BB9500EC29A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = tarena03_01;
+				TargetAttributes = {
+					DB7CA8EA1C12BB9500EC29A7 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					DB7CA9031C12BB9600EC29A7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DB7CA8EA1C12BB9500EC29A7;
+					};
+					DB7CA90E1C12BB9600EC29A7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DB7CA8EA1C12BB9500EC29A7;
+					};
+				};
+			};
+			buildConfigurationList = DB7CA8E61C12BB9500EC29A7 /* Build configuration list for PBXProject "WoGit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB7CA8E21C12BB9500EC29A7;
+			productRefGroup = DB7CA8EC1C12BB9500EC29A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB7CA8EA1C12BB9500EC29A7 /* WoGit */,
+				DB7CA9031C12BB9600EC29A7 /* WoGitTests */,
+				DB7CA90E1C12BB9600EC29A7 /* WoGitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB7CA8E91C12BB9500EC29A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7CA8FE1C12BB9500EC29A7 /* LaunchScreen.storyboard in Resources */,
+				DB7CA8FB1C12BB9500EC29A7 /* Assets.xcassets in Resources */,
+				DB7CA8F91C12BB9500EC29A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7CA9021C12BB9600EC29A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7CA90D1C12BB9600EC29A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB7CA8E71C12BB9500EC29A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7CA8F61C12BB9500EC29A7 /* ViewController.m in Sources */,
+				DB7CA8F31C12BB9500EC29A7 /* AppDelegate.m in Sources */,
+				DB7CA8F01C12BB9500EC29A7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7CA9001C12BB9600EC29A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7CA9091C12BB9600EC29A7 /* WoGitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7CA90B1C12BB9600EC29A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7CA9141C12BB9600EC29A7 /* WoGitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB7CA9061C12BB9600EC29A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB7CA8EA1C12BB9500EC29A7 /* WoGit */;
+			targetProxy = DB7CA9051C12BB9600EC29A7 /* PBXContainerItemProxy */;
+		};
+		DB7CA9111C12BB9600EC29A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB7CA8EA1C12BB9500EC29A7 /* WoGit */;
+			targetProxy = DB7CA9101C12BB9600EC29A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB7CA8F71C12BB9500EC29A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB7CA8F81C12BB9500EC29A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB7CA8FC1C12BB9500EC29A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB7CA8FD1C12BB9500EC29A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB7CA9161C12BB9600EC29A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB7CA9171C12BB9600EC29A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB7CA9191C12BB9600EC29A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WoGit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.WoGit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB7CA91A1C12BB9600EC29A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WoGit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.WoGit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB7CA91C1C12BB9600EC29A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WoGitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.WoGitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoGit.app/WoGit";
+			};
+			name = Debug;
+		};
+		DB7CA91D1C12BB9600EC29A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WoGitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.WoGitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoGit.app/WoGit";
+			};
+			name = Release;
+		};
+		DB7CA91F1C12BB9600EC29A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WoGitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.WoGitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WoGit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DB7CA9201C12BB9600EC29A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WoGitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.WoGitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WoGit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB7CA8E61C12BB9500EC29A7 /* Build configuration list for PBXProject "WoGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7CA9161C12BB9600EC29A7 /* Debug */,
+				DB7CA9171C12BB9600EC29A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB7CA9181C12BB9600EC29A7 /* Build configuration list for PBXNativeTarget "WoGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7CA9191C12BB9600EC29A7 /* Debug */,
+				DB7CA91A1C12BB9600EC29A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB7CA91B1C12BB9600EC29A7 /* Build configuration list for PBXNativeTarget "WoGitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7CA91C1C12BB9600EC29A7 /* Debug */,
+				DB7CA91D1C12BB9600EC29A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB7CA91E1C12BB9600EC29A7 /* Build configuration list for PBXNativeTarget "WoGitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7CA91F1C12BB9600EC29A7 /* Debug */,
+				DB7CA9201C12BB9600EC29A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB7CA8E31C12BB9500EC29A7 /* Project object */;
+}
